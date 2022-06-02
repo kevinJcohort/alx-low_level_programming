@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -8,17 +8,17 @@
 
 int main(void)
 {
-    char TheCharacter;
-    int TheInteger;
-    long TheLong;
-    long long TheLongLong;
-    float Thefloat;
+	char acharacter;
+	int ainteger;
+	long along;
+	long long alonglong;
+	float afloat;
 
-    // sizeof evaluates the size of a variable
-    printf("Size of char: %zu bytes(s)\n", sizeof(TheCharacter));
-    printf("Size of int: %zu bytes(s)\n", sizeof(TheInteger));
-    printf("Size of long: %zu bytes(s)\n", sizeof(TheLong));
-    printf("Size of long long: %zu byte(s)\n", sizeof(TheLongLong));
-    
-    return 0;
+	printf("Size of a char: %lu byte(s)\n", sizeof(acharacter));
+	printf("Size of an int: %lu byte(s)\n", sizeof(ainteger));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(along));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(alonglong));
+	printf("Size of a float: %lu byte(s)\n", sizeof(afloat));
+
+	return (0);
 }
