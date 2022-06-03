@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Get a random number and print the number
+ * variable n will store a different value every time you will run this program
  * and if it is positive, negative, or zero
  * Return: 0
  */
