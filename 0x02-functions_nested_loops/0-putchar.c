@@ -8,7 +8,6 @@
 
 int main(void)
 {  
-    // Write the Character to stdout
     putchar('_');
     putchar('P');
     putchar('u');
