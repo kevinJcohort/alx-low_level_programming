@@ -6,6 +6,7 @@
  * Return: 1 is successful
  * otherwise return 0
  *
+ * @c: input
  */
 int _islower(int c)
 {
