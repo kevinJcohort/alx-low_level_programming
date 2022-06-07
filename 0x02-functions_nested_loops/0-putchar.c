@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /*
 * Main-This prints the word _putchar using putchar
@@ -6,7 +6,7 @@
 *
 */
 
-int main()
+int main(void)
 {  
     // Write the Character to stdout
     putchar('_');
