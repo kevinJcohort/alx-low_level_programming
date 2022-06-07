@@ -6,9 +6,8 @@
  * Return: 1 is successful
  * otherwise return 0
  *
- * @c: input
  */
-int _islower(int c)
+int _islower(int r)
 {
-	return (c >= 'a' && c <= 'z');
+	return (r >= 'a' && r <= 'z');
 }
