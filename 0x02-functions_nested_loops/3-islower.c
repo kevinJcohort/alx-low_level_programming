@@ -1,12 +1,9 @@
-#include "main.h"
+#include <ctype.h>
 
 /**
- * _islower - check for lowercase character
- *
- * Return: 1 is successful
- * otherwise return 0
- *
- * @c: input
+ * _islower - uses islower function from ctype header
+ *  @c: value to check
+ * Return: int
  */
 int _islower(int c)
 {
