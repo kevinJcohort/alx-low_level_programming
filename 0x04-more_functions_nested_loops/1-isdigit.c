@@ -3,10 +3,9 @@
 #include <ctype.h>
 
 /**
- * _isdigit - return 1 if c is a digit or 0 if c is not 
- * return: int
+ * _isdigit - return 1 is c is a digit or 0 if not
  * @c: input
- *
+ * Return: int
  */
 
 int _isdigit(int c)
