@@ -3,9 +3,9 @@
 #include <ctype.h>
 
 /**
- * _isdigit - checks for a digit
+ * _isdigit - return 1 if c is a digit or 0 if c is not 
  * return: int
- * @c
+ * @c: input
  *
  */
 
@@ -20,4 +20,3 @@ int _isdigit(int c)
 		return (0);
 	}
 }
-
