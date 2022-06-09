@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- *main - check for upper case characters and return 1 if true and 0 if false
+ *_isupper - return 1 if c is uppercase and 0 if not
  *return: int
  *
  *@c: input
