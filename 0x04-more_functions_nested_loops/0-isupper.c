@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  *main - check for upper case characters and return 1 if true and 0 if false
