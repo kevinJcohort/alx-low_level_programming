@@ -9,7 +9,7 @@
  *@c: input
  */
 
-int _isupper(char c)
+int _isupper(int c)
 {
 	if (insupper(c))
 	{
