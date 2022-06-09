@@ -3,8 +3,7 @@
 
 /**
  * print_most_numbers - prints all numbers between 0 and 9 except 2 and 4
- * Return: void
- * @i: input
+ * Return: int
  */
 
 void print_most_numbers(void)
