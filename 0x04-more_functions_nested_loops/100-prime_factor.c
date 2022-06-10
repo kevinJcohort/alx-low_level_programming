@@ -1,17 +1,33 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <math.h>
+#include "stdio.h"
 
-int main()
+/**
+* main - largest prime factor of 612852475143
+*
+* Return: 0
+*/
+
+int main(void)
 {
-	long int input = 612852475143;
-	int isPrime = true;
-	long int i;
+	long int x, i, p;
 
-	for (int i =(input); i > 1; i--)
+	p = -1;
+	x = 612852475143;
+
+	while (x % 2 == 0)
 	{
-		printf("%d", i);
+		p = 2;
+		x = x / 2;
 	}
-	
-	
+	for (i = 3; i <= x / 2; i = i + 2)
+	{
+		while (x % i == 0)
+		{
+			p = i;
+			x = x / i;
+		}
+	}
+	if (x > 2)
+		p = x;
+	printf("%ld\n", p);
+	return (0);
 }
