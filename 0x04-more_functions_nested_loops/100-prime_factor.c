@@ -6,18 +6,12 @@ int main()
 {
 	long int input = 612852475143;
 	int isPrime = true;
-	int i;
+	long int i;
 
 	for (int i =(input); i > 1; i--)
 	{
 		printf("%d", i);
-		if (input % i == 0)
-		{
-			isPrime = false;
-		}
 	}
-	if (isPrime)
-	{
-		printf("%d", i );
-	}
+	
+	
 }
