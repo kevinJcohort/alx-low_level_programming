@@ -8,7 +8,7 @@ int main()
 	int isPrime = true;
 	int i;
 
-	for (int i = sqrt(input); i > 1; i--)
+	for (int i =(input); i > 1; i--)
 	{
 		printf("%d", i);
 		if (input % i == 0)
