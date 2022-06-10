@@ -5,7 +5,7 @@
  * @n: input integer parameter
  * Return: void
  */
-void print_number(int n);
+void print_number(int n)
 {
 	unsigned int i = n;
 
@@ -13,6 +13,7 @@ void print_number(int n);
 	{
 		_putchar(45);
 		i = -i;
+
 	}
 	if (i / 10)
 	{
