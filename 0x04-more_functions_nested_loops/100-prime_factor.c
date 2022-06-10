@@ -18,6 +18,6 @@ int main()
 	}
 	if (isPrime)
 	{
-		printf("%d\n");
+		printf("%d", i );
 	}
 }
