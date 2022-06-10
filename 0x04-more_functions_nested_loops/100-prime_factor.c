@@ -10,7 +10,6 @@ int main(void)
 {
 	long int x, i, p;
 
-	p = -1;
 	x = 612852475143;
 
 	while (x % 2 == 0)
